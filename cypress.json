@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://api.football-data.org/v2/teams/",
+    "projectId": "ApiTesting",
+    "video": false
+  }

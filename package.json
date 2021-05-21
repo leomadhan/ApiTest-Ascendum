@@ -1,0 +1,27 @@
+{
+  "name": "apitest-ascendum",
+  "version": "1.0.0",
+  "description": "Api test using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",   
+    "test": "run-p --race start cy:run"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leomadhan/ApiTest-Ascendum.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "MMM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leomadhan/ApiTest-Ascendum/issues"
+  },
+  "homepage": "https://github.com/leomadhan/ApiTest-Ascendum#readme",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
